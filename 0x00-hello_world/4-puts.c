@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  *main -serves as an entry point for program execution
- *Return:0 (success)
+ *return : always0 meaning the output is successful
  */
 int main(void)
 {
