@@ -17,7 +17,7 @@ void print_to_98(int n)
 		}
 		else if (x < 10)
 		{
-                       _putchar ((x / 10) + '0');
+                       _putchar ((x % 10) + '0');
 		       _putchar (',');
 		       _putchar (' ');
 		}
