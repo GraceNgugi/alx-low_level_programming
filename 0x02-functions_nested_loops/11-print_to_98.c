@@ -14,6 +14,7 @@ void print_to_98(int n)
 		{
 			_putchar ((x / 10) + '0');
 			_putchar ((x % 10) + '0');
+			_putchar ((' '));
 		}
 		else
 		{
