@@ -10,14 +10,14 @@ char *cap_string(char *s)
 
 	string_count = 0;
 	while (s[string_count] != '\0')
-		if (s[string_count] >= 97 && s[string_count] <= 122)
+		if (s[0] >= 97 && s[0] <= 122)
 		{
-			s[string_count] = s[string_count] - 32;
+			s[0] = s[0] - 32;
 		}
 	if (s[string_count] == ' ' || s[string_count] == '\t'
 			|| s[string_count] == '\n'
 			|| s[string_count] == ',' || s[string_count] == ';'
-			|| s[string_count] == '.' || s[string_count] == '.'
+			|| s[string_count] == '.' || s[string_count] == '.' 
 			|| s[string_count] == '!' || s[string_count] == '?'
 			|| s[string_count] == '"' || s[string_count] == '('
 			|| s[string_count] == ')' || s[string_count] == '{'
