@@ -28,8 +28,8 @@ char *cap_string(char *s)
 		{
 			s[string_count + 1]  = s[string_count + 1] - 32;
 		}
-		string_count++;
 	}
+		string_count++;
 	}
 	return (s);
 }
