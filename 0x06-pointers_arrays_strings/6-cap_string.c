@@ -10,6 +10,7 @@ char *cap_string(char *s)
 
 	string_count = 0;
 	while (s[string_count] != '\0')
+	{
 		if (s[0] >= 97 && s[0] <= 122)
 		{
 			s[0] = s[0] - 32;
@@ -28,6 +29,7 @@ char *cap_string(char *s)
 			s[string_count + 1]  = s[string_count + 1] - 32;
 		}
 		string_count++;
+	}
 	}
 	return (s);
 }
